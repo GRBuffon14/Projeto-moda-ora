@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Viaoda+Libre&display=swap');
+
+:root{
+    --fonte-padrao: 'Roboto', sem serifa;
+    --fonte-titulo:'Viaoda Libre', cursiva;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #162028;
+    height: 6rem;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 100;
+    margin-left: 20rem;
+}
+
+
+.hero ul{
+    display: flex;
+    margin-right: 5rem;
+    list-style-type: none;
+    gap: 8rem;
+    
+    font-size: 1.4rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.nav li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.imagem__topo{
+    width: 100%;
+}
+
+.principal{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: center;
+    width: 70%;
+}
+
+.principal h2{
+    font-family: var(--fonte-titulo);
+    font-weight: 100;
+    font-size: 3.6rem;
+    margin-bottom: 0;
+}
+
+.principal p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+.imagens{
+    display: flex;
+    width: 980px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 8rem;
+    
+}
+
+.imagens img{
+    width: 100%;
+}
+
+.imagens h3{
+    color: #555;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+}
+
+.imagens p{
+    color: #555;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+}
+
+.principal__2{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 16rem 0 8rem;
+    margin-top: 8rem;
+}
+
+.principal__2 h2, p{
+    width: 70%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.principal__2 h2{
+    font-family: var(--fonte-titulo);
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.principal__2 p{
+    width: 45%;
+    margin-left: 19rem;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-top: 4rem;
+}
+
+.rodape{
+    color: #6f8597;
+    background-color: #0b171f;
+    text-align: center;
+    padding: 2rem;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+}
