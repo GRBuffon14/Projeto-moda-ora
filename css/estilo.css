@@ -21,13 +21,13 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #162028;
-    height: 6rem;
+    height: 7rem;
 }
 
 h1{
     font-family: var(--fonte-titulo);
     color: white;
-    font-size: 3.6rem;
+    font-size: 4.6rem;
     font-weight: 100;
     margin-left: 20rem;
 }
@@ -38,8 +38,7 @@ h1{
     margin-right: 5rem;
     list-style-type: none;
     gap: 8rem;
-    
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
     
@@ -70,14 +69,15 @@ h1{
 .principal h2{
     font-family: var(--fonte-titulo);
     font-weight: 100;
-    font-size: 3.6rem;
+    font-size: 4.6rem;
     margin-bottom: 0;
 }
 
 .principal p{
     line-height: 2;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #555;
+    margin-top: 2rem;
 }
 
 .imagens{
@@ -86,18 +86,19 @@ h1{
     justify-content: space-evenly;
     text-align: center;
     margin: 0 auto;
-    width: 75%;
+    width: 70%;
     margin-top: 8rem;
     
 }
 
 .imagens img{
-    width: 100%;
+    width: 36rem;
+
 }
 
 .imagens h3{
     color: #555;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 0.6rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -106,7 +107,7 @@ h1{
 
 .imagens p{
     color: #555;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 0.6rem;
 }
 
@@ -132,9 +133,9 @@ h1{
 }
 
 .principal__2 p{
-    width: 45%;
-    margin-left: 19rem;
-    font-size: 1.8rem;
+    width: 35%;
+    margin-left: 46rem;
+    font-size: 2rem;
     line-height: 1.6;
     margin-top: 4rem;
 }
@@ -143,7 +144,7 @@ h1{
     color: #6f8597;
     background-color: #0b171f;
     text-align: center;
-    padding: 2rem;
+    padding: 2.5rem;
     letter-spacing: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
